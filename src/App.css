@@ -50,8 +50,6 @@
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
   background: linear-gradient(45deg, #ffffff, #a8a8a8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .about-content {
@@ -148,10 +146,22 @@ main {
 }
 
 /* Jobs Section */
+.job-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
 .jobs-content {
   max-width: 800px;
   margin: 0 auto;
   text-align: left;
+}
+
+.job-item-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .job-item {
@@ -160,6 +170,7 @@ main {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .job-item h3 {
@@ -180,6 +191,10 @@ main {
 .responsibilities {
   margin-top: 1rem;
   padding-left: 1.5rem;
+}
+
+.job-item:hover {
+  scale: 1.02;
 }
 
 /* Projects Section */
