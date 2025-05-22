@@ -5,19 +5,20 @@ const Projects = () => {
     <section id="projects" className="section">
       <h2>Projects</h2>
       <div className="projects-grid">
-        <div className="project-card">
-          <h3>Project Name</h3>
+        <div className="project-card coming-soon">
+          <h3>Coming Soon...</h3>
           <p className="project-description">
-            Brief description of the project and its key features.
+            I'm currently working on some exciting projects. In the meantime, you can check out my GitHub profile to see my contributions and repositories.
           </p>
-          <div className="project-tech">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
-          </div>
           <div className="project-links">
-            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a 
+              href="https://github.com/alexdesko" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="github-link"
+            >
+              Visit my GitHub
+            </a>
           </div>
         </div>
       </div>
